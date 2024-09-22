@@ -1,0 +1,108 @@
+body{
+    background-color:darkviolet;
+}
+.cameron{
+    color:aquamarine;
+    text-shadow: -2px 2px black;
+}
+button{
+    transition: ease-in-out 1s;
+    width: 250px;
+    height: 75px;
+    color: rgb(233, 73, 185);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,1);
+    background-color: Aquamarine;
+}
+button:hover{
+    background-color:rgb(233, 73, 185);
+    color: aquamarine;
+    border-radius: 25%;
+
+}
+.loader{
+    opacity: .5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    animation: sigmasAnonymous 3s 1s infinite alternate;
+    -webkit-animation: sigmasAnonymous 3s 1s infinite alternate;
+}
+@-webkit-keyframes sigmasAnonymous{
+    0%{
+        /* border-radius: 0 0 0 0; */
+        background: plum;
+        transform: rotate(0deg);
+    }
+    25%{
+        /* border-radius: 50% 0 0 0; */
+        background: powderblue;
+        transform: rotate(45deg);
+    }
+    50%{
+        /* border-radius: 50% 50% 0 0; */
+        background: pink;
+        transform: rotate(90deg);
+    }
+    75%{
+        /* border-radius: 50% 50% 50% 0; */
+        background: #EE82EE;
+        transform: rotate(135deg);
+    }
+    100%{
+        /* border-radius: 50% 50% 50% 50%; */
+        background: purple;
+        transform: rotate(180deg);
+    }
+    /* 75%{
+        border-radius: 50% 50% 50% 0;
+        background: #EE82EE;
+        transform: rotate(135deg);
+    }
+    50%{
+        border-radius: 50% 50% 0 0;
+        background: pink;
+        transform: rotate(90deg);
+    }
+    25%{
+        border-radius: 50% 0 0 0;
+        background: powderblue;
+        transform: rotate(45deg);
+    }
+    0%{
+        border-radius: 0 0 0 0;
+        background: plum;
+        transform: rotate(0deg);
+    } */
+}
+@keyframes sigmasAnonymous{
+    0%{
+        border-radius: 0 0 0 0;
+        background: plum;
+        transform: rotate(0deg);
+    }
+    25%{
+        border-radius: 50% 0 0 0;
+        background: powderblue;
+        transform: rotate(45deg);
+    }
+    50%{
+        border-radius: 50% 50% 0 0;
+        background: pink;
+        transform: rotate(90deg);
+    }
+    75%{
+        border-radius: 50% 50% 50% 0;
+        background: #EE82EE;
+        transform: rotate(135deg);
+    }
+    100%{
+        border-radius: 50% 50% 50% 50%;
+        background: purple;
+        transform: rotate(180deg);
+    }
+}
