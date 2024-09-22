@@ -1,5 +1,4 @@
 body{
-    background-color:darkviolet;
 }
 .cameron{
     color:aquamarine;
@@ -19,9 +18,15 @@ button:hover{
     background-color:rgb(233, 73, 185);
     color: aquamarine;
     border-radius: 25%;
-
 }
-.loader{
+h1{
+    padding:60px;
+    background-image: url(bernard\ love\ bg.png) ;
+    background-size: cover;
+    width: 30%;
+    height: 100%;
+}w
+/* .loader{
     opacity: .5;
     position: absolute;
     top: 50%;
